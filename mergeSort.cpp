@@ -21,6 +21,7 @@ void input()
         {
             cout << "nMaksimal panjang array adalah 20";
         }
+    }
         cout << "\n--------------------------" << endl;
         cout << "\nInputkan Isi element array" << endl;
         cout << "\n--------------------------" << endl;
@@ -28,4 +29,8 @@ void input()
         for (int i = 0; i < n; i++)
         {
             cout << "Array index ke-" << i << " : ";
-            cin >> arr[i]
+            cin >> arr[i];
+        }
+}    
+
+// create function mergeSort
